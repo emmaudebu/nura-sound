@@ -1,15 +1,15 @@
-import React from "react";
 import logo from "../assets/images/svg.png";
 import menu from "../assets/images/icons/menu.svg";
+import Button from "./Button";
 
 const Header = () => {
   return (
     <>
-      <div className="  w-[100vw] h-[50vh] md:w-[100%] md:h-[100vh] bg-hero-bg text-white bg-cover main-padding bg-contain md:bg-cover   bg-no-repeat ">
+      <div className=" Header  ">
         <header className=" flex items-center justify-between py-5">
           <nav className=" flex items-center gap-5 ">
             <img src={logo} />
-            <ul className=" hidden items-center gap-8 md:flex ">
+            <ul className=" hidden items-center gap-8 md:flex  ">
               <li>Products</li>
               <li>Subscription</li>
               <li>Why Nura?</li>
@@ -23,6 +23,13 @@ const Header = () => {
             </span>
           </div>
         </header>
+        <div className=" text-center flex flex-col mt-[50%] md:mt-[35%] gap-4 items-center">
+          <p className="  text-sm md:text-3xl">OUR BIGGEST SALE NOW LIVE</p>
+          <p className=" text-xl   md:text-6xl font-bold">
+            BLACK FRIDAY STARTS NOW !
+          </p>
+          <Button text={"SHOP SALES NOW"} />
+        </div>
       </div>
     </>
   );

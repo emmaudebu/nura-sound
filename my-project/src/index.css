@@ -16,3 +16,8 @@ li {
     @apply px-3  md:px-[64px];
   }
 }
+@layer {
+  .Header {
+    @apply w-[100vw] h-[50vh] md:w-[100%] md:h-[100vh] bg-hero-bg text-white bg-cover main-padding  md:bg-cover   bg-no-repeat;
+  }
+}
