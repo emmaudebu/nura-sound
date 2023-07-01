@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         "hero-bg": "url('./src/assets/images/Hero-Bg.png')",
-        "footer-texture": "url('/img/footer-texture.png')",
+        "device-bg": "url('./src/assets/images/cock.png')",
       },
     },
   },

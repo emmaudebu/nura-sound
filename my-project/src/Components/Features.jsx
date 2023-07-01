@@ -1,6 +1,10 @@
 import React from "react";
 import headPhone from "../assets/images/headphone.png";
 import tw5ty from "../assets/images/25.png";
+import thirty from "../assets/images/30.png";
+import bud2 from "../assets/images/bud2.png";
+import earbud from "../assets/images/earbud.png";
+import flash from "../assets/images/flash.png";
 import Button from "./Button";
 
 const Features = () => {
@@ -20,7 +24,7 @@ const Features = () => {
           <img
             src={tw5ty}
             alt=""
-            className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse"
+            className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse w-16 h-16"
           />
           <p className=" text-[2rem] font-bold py-4">Nuraphone</p>
           <p className="  mb-5">
@@ -36,13 +40,13 @@ const Features = () => {
           />
         </div>
         <div className="featureBox ">
-          <img src={headPhone} alt="" className=" " />
+          <img src={bud2} alt="" className=" " />
           <img
-            src={tw5ty}
+            src={thirty}
             alt=""
-            className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse"
+            className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse w-16 h-16"
           />
-          <p className=" text-[2rem] font-bold py-4">Nuraphone</p>
+          <p className=" text-[2rem] font-bold py-4">NuraTrue</p>
           <p className="  mb-5">
             <span className=" text-gray-400 line-through">$399</span>{" "}
             <span className=" font-bold text-[1rem] ">$299.25</span>
@@ -56,13 +60,14 @@ const Features = () => {
           />
         </div>
         <div className="featureBox ">
-          <img src={headPhone} alt="" className=" " />
+          <img src={earbud} alt="" className=" " />
           <img
             src={tw5ty}
             alt=""
-            className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse"
+            className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse w-16 h-16"
           />
-          <p className=" text-[2rem] font-bold py-4">Nuraphone</p>
+          <p className=" text-[2rem] font-bold py-4">NuaBuds 2</p>
+
           <p className="  mb-5">
             <span className=" text-gray-400 line-through">$399</span>{" "}
             <span className=" font-bold text-[1rem] ">$299.25</span>
@@ -76,14 +81,17 @@ const Features = () => {
           />
         </div>
         <div className="featureBox ">
-          <img src={headPhone} alt="" className=" " />
+          <img src={flash} alt="" className=" " />
           <img
             src={tw5ty}
             alt=""
-            className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse"
+            className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse w-16 h-16"
           />
-          <p className=" text-[2rem] font-bold py-4">Nuraphone</p>
-          <p className="  mb-5">
+          <p className=" text-[1.5rem] font-bold py-2">
+            Nura Bluetooth® 5.3 Audio Transmitter
+          </p>
+          <p className=" text-[2rem] font-bold py-1"></p>
+          <p className="  mb-2">
             <span className=" text-gray-400 line-through">$399</span>{" "}
             <span className=" font-bold text-[1rem] ">$299.25</span>
           </p>
