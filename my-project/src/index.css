@@ -6,6 +6,7 @@
 
 html {
   font-family: "Space Grotesk", sans-serif;
+  transition: all 0.5s ease-in-out;
 }
 li {
   cursor: pointer;
@@ -15,9 +16,10 @@ li {
   .main-padding {
     @apply px-3  md:px-[64px];
   }
-}
-@layer {
   .Header {
-    @apply w-[100vw] h-[50vh] md:w-[100%] md:h-[100vh] bg-hero-bg text-white bg-cover main-padding  md:bg-cover   bg-no-repeat;
+    @apply w-[100%] h-[100%] md:w-[100%] md:h-[100%] bg-hero-bg text-white bg-cover main-padding  md:bg-cover   bg-no-repeat overflow-x-hidden;
+  }
+  .featureBox {
+    @apply w-[20rem] h-[30rem] bg-[#e5e5e5] pb-8 rounded-xl relative text-center md:flex-col hover:scale-105 hover:transition duration-150 ease-out hover:ease-in;
   }
 }

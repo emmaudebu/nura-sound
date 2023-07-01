@@ -5,7 +5,7 @@ import Button from "./Button";
 const Header = () => {
   return (
     <>
-      <div className=" Header  ">
+      <div className=" Header ">
         <header className=" flex items-center justify-between py-5">
           <nav className=" flex items-center gap-5 ">
             <img src={logo} />
@@ -25,10 +25,15 @@ const Header = () => {
         </header>
         <div className=" text-center flex flex-col mt-[50%] md:mt-[35%] gap-4 items-center">
           <p className="  text-sm md:text-3xl">OUR BIGGEST SALE NOW LIVE</p>
-          <p className=" text-xl   md:text-6xl font-bold">
-            BLACK FRIDAY STARTS NOW !
+          <p className=" text-2xl   md:text-8xl font-bold capitalize mb-5">
+            black friday start now !
           </p>
-          <Button text={"SHOP SALES NOW"} />
+          <Button
+            text={"SHOP SALES NOW"}
+            color={
+              "bg-white rounded-full text-black w-[200px] p-[10px] mb-[50px] animate-bounce cursor-pointer "
+            }
+          />
         </div>
       </div>
     </>
