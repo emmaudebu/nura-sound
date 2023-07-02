@@ -4,12 +4,12 @@ import Button from "./Button";
 
 const CalltoAction = () => {
   return (
-    <div className=" pt-[20px] md:pt-0 main-padding bg-gradient-to-r from-blue-700 to-[#3280f4] h-[100%] md:h-[51rem] item-center md:item-start flex flex-col md:flex-row text-white pb-10">
-      <section>
+    <div className=" pt-[20px] md:pt-0 main-padding bg-gradient-to-r from-blue-700 to-[#3280f4] h-[100%] md:h-[51rem] justify-center  md:item-start flex flex-col md:flex-row text-white pb-10">
+      <section className=" z-50  ">
         <img
           src={phone}
           alt=""
-          className="   w-[80vw] h-[80vh] md:w-[40rem] md:h-[60rem]"
+          className="   w-[80vw] h-[80vh] md:w-[40rem] md:h-[60rem] z-50 m-auto "
         />
       </section>
       <section className="w-[41rem]my-[50px] md:mt-[12rem] text-center md:text-left  ">
