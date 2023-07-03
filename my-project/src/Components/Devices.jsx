@@ -14,7 +14,7 @@ const Devices = () => {
             <h1 className="  text-[2rem] md:text-[4rem] w-[30rem] pt-[5rem] md:pt-4 leading-tight ">
               Play from<br className=" hidden md:block"></br> any device.
             </h1>
-            <section className="flex flex-col items-center justify-center">
+            <section className="flex flex-col items-center ">
               <p className="  w-[90%] md:w-[25rem] my-[1rem]  px-10 md:px-0">
                 Your hearing profile is{" "}
                 <span className=" text-green-600">stored on the earbuds</span>,

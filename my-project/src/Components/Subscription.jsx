@@ -14,9 +14,9 @@ const Subscription = () => {
         Cancel anytime.
       </p>
       <Button
-        text={"SUBSCRIBE"}
+        text={"Discover NuraNow"}
         color={
-          "bg-white rounded-full text-black w-[200px] p-[10px] mb-[50px] animate-pulse cursor-pointer mt-[20px] "
+          "bg-blue-500 rounded-full text-white uppercase w-[200px] p-[10px] mb-[50px] animate-pulse cursor-pointer mt-[20px] "
         }
       />
     </div>
