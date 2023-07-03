@@ -1,25 +1,53 @@
 import logo from "../assets/images/svg.png";
 import menu from "../assets/images/icons/menu.svg";
+import { useState } from "react";
 import Button from "./Button";
 
 const Header = () => {
+  const [Menu, setMenu] = useState(false);
+
+  function ShowMenu(params) {
+    setMenu(!Menu);
+  }
+
   return (
     <>
       <div className=" Header ">
         <header className=" flex items-center justify-between py-5">
-          <nav className=" flex items-center gap-5 ">
+          <nav className=" flex items-center gap-5 relative ">
             <img src={logo} />
-            <ul className=" hidden items-center gap-8 md:flex  ">
-              <li>Products</li>
-              <li>Subscription</li>
-              <li>Why Nura?</li>
-              <li>Support</li>
+            <ul
+              className={`  items-center gap-8 md:flex   ${
+                Menu
+                  ? "block absolute top-10 z-10 md:hidden bg-[#310606bd] text-white w-64 p-5 text-lg rounded-md transition-all "
+                  : "hidden"
+              } `}
+            >
+              <li className={`${Menu ? "pb-3 cursor-pointer " : ""}`}>
+                <a href="#product">Products</a>
+              </li>
+              <li className={`${Menu ? "pb-3 cursor-pointer " : ""}`}>
+                <a href="#Subscription">Subscription</a>
+              </li>
+              <li className={`${Menu ? "pb-3 cursor-pointer " : ""}`}>
+                <a href="#CTA">Why Nura?</a>
+              </li>
+              <li className={`${Menu ? "pb-3 cursor-pointer " : ""}`}>
+                <a href="#Support">Support</a>
+              </li>
             </ul>
           </nav>
           <div className=" flex items-center gap-4 text-white">
-            <span className=" cursor-pointer">Cart(0)</span>
+            <span className=" cursor-pointer " title="Cart is Empty">
+              Cart(0)
+            </span>
             <span className=" cursor-pointer block md:hidden ">
-              <img src={menu} alt="" className="text-lg text-white" />
+              <img
+                src={menu}
+                alt=""
+                className="text-lg text-white"
+                onClick={ShowMenu}
+              />
             </span>
           </div>
         </header>

@@ -8,6 +8,7 @@ html {
   font-family: "Space Grotesk", sans-serif;
   transition: all 0.5s ease-in-out;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 li {
   cursor: pointer;

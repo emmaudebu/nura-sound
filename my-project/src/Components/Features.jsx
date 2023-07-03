@@ -80,7 +80,7 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox ">
+        <div className="featureBox " id="product">
           <img src={flash} alt="" className="mx-auto " />
           <img
             src={tw5ty}
