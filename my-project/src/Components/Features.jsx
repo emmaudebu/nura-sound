@@ -20,7 +20,7 @@ const Features = () => {
       </div>
       <section className=" flex flex-col md:flex-row items-center gap-5">
         <div className="featureBox ">
-          <img src={headPhone} alt="" className=" " />
+          <img src={headPhone} alt="" className="mx-auto " />
           <img
             src={tw5ty}
             alt=""
@@ -40,7 +40,7 @@ const Features = () => {
           />
         </div>
         <div className="featureBox ">
-          <img src={bud2} alt="" className=" " />
+          <img src={bud2} alt="" className="mx-auto " />
           <img
             src={thirty}
             alt=""
@@ -60,7 +60,7 @@ const Features = () => {
           />
         </div>
         <div className="featureBox ">
-          <img src={earbud} alt="" className=" " />
+          <img src={earbud} alt="" className="mx-auto " />
           <img
             src={tw5ty}
             alt=""
@@ -81,14 +81,15 @@ const Features = () => {
           />
         </div>
         <div className="featureBox ">
-          <img src={flash} alt="" className=" " />
+          <img src={flash} alt="" className="mx-auto " />
           <img
             src={tw5ty}
             alt=""
             className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse w-16 h-16"
           />
           <p className=" text-[1.5rem] font-bold py-2">
-            Nura Bluetooth® 5.3 Audio Transmitter
+            Nura Bluetooth® 5.3 <br className="  md:hidden"></br> Audio
+            Transmitter
           </p>
           <p className=" text-[2rem] font-bold py-1"></p>
           <p className="  mb-2">
@@ -99,7 +100,7 @@ const Features = () => {
             className=""
             text={"SHOW NOW"}
             color={
-              "bg-[#3333f5] text-white w-[300rem] p-[0.47rem] text-xs rounded-full "
+              "bg-[#3333f5] text-white w-[300rem] p-[0.47rem] text-xs rounded-full  "
             }
           />
         </div>

@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const CalltoAction = () => {
   return (
-    <div className=" pt-[20px] md:pt-0 main-padding bg-gradient-to-r from-blue-700 to-[#3280f4] h-[100%] md:h-[51rem] justify-center  md:item-start flex flex-col md:flex-row text-white pb-10">
+    <div className=" pt-[20px] md:pt-0 main-padding bg-gradient-to-r from-blue-700 to-[#3280f4] h-[100%] md:h-[51rem] justify-center  md:item-start flex flex-col md:flex-row text-white pb-10  overflow-x-hidden">
       <section className=" z-50  ">
         <img
           src={phone}
