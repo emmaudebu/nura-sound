@@ -26,7 +26,7 @@ const Partners = () => {
       <img
         src={partner1}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner2}

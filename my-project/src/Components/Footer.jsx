@@ -4,7 +4,7 @@ import logo from "../assets/images/svg.png";
 export const Footer = () => {
   return (
     <div div className=" bg-black main-padding">
-      <div className="  bg-black text-white pt-[5.6rem]  flex flex-col md:flex-row gap-11 md:gap-[9rem] pb-10">
+      <div className="  bg-black text-white pt-[5.6rem]  hidden  md:flex :flex-row gap-11 md:gap-[9rem] pb-10">
         <div className=" w-[21rem] pr-[2.5rem]">
           <img src={logo} alt="" className="pb-5" />
           <p>
@@ -26,7 +26,7 @@ export const Footer = () => {
           <li>Accessories</li>
           <li>Subscription</li>
         </ul>
-        <ul>
+        <ul className="w-[9rem]">
           <h3 className=" text-gray-400 text-base uppercase text-[0.8rem]">
             Info
           </h3>
