@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-bg": "url('./src/assets/images/Hero-Bg.png')",
+        "hero-bg": "url('../src/assets/images/Hero-Bg.png')",
         "device-bg": "url('./src/assets/images/cock.png')",
-        Blurs: "url('./src/assets/images/blur.png')",
+        Blurs: "url('../src/assets/images/blur.png')",
       },
     },
   },
