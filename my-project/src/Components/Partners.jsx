@@ -46,57 +46,57 @@ const Partners = () => {
       <img
         src={partner5}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner6}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner7}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner8}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner9}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner0}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner11}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className="w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner12}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner13}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner14}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner15}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className="w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner16}
