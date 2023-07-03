@@ -101,28 +101,28 @@ const Partners = () => {
       <img
         src={partner16}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner17}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner18}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       <img
         src={partner19}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
       {/* <img src={partner20} alt="" className=" w-[200px]" /> */}
       <img
         src={partner21}
         alt=""
-        className=" w-[200px] hover:scale-[1.1] cursor-pointer"
+        className=" w-full md:w-[200px] hover:scale-[1.1] cursor-pointer"
       />
     </div>
   );
