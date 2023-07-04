@@ -45,15 +45,17 @@ const Header = () => {
               <img
                 src={menu}
                 alt=""
-                className="text-lg text-white"
+                className="text-lg text-[#fff]"
                 onClick={ShowMenu}
               />
             </span>
           </div>
         </header>
         <div className=" text-center flex flex-col mt-[20%] md:mt-[35%] gap-4 items-center">
-          <p className="  text-sm md:text-3xl">OUR BIGGEST SALE NOW LIVE</p>
-          <p className=" text-3xl   md:text-8xl font-bold capitalize mb-5">
+          <p className="  text-sm md:text-3xl text-[#fff]">
+            OUR BIGGEST SALE NOW LIVE
+          </p>
+          <p className=" text-3xl text-[#fff]  md:text-8xl font-bold capitalize mb-5">
             black friday start now !
           </p>
           <Button
