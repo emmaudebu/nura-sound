@@ -17,7 +17,7 @@ const Header = () => {
           <nav className=" flex items-center gap-5 relative ">
             <img src={logo} />
             <ul
-              className={`  items-center gap-8 md:flex   ${
+              className={` hidden items-center gap-8 md:flex   ${
                 Menu
                   ? "block absolute top-10 z-10 md:hidden bg-[#310606bd] text-white w-64 p-5 text-lg rounded-md transition-all "
                   : "hidden"

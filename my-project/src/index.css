@@ -9,16 +9,11 @@ html {
   transition: all 0.5s ease-in-out;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  max-width: 1350px;
+  margin: auto;
 }
 li {
   cursor: pointer;
-}
-h5 {
-  font-size: 40px;
-  font-family: "Space Grotesk", sans-serif;
-  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 
 @layer {
