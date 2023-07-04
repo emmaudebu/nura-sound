@@ -19,7 +19,7 @@ const Features = () => {
         </p>
       </div>
       <section className=" flex flex-col md:flex-row items-center gap-5">
-        <div className="featureBox ">
+        <div className="featureBox relative ">
           <img src={headPhone} alt="" className="mx-auto " />
           <img
             src={tw5ty}
@@ -39,7 +39,7 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox ">
+        <div className="featureBox relative ">
           <img src={bud2} alt="" className="mx-auto " />
           <img
             src={thirty}
@@ -59,7 +59,7 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox ">
+        <div className="featureBox relative ">
           <img src={earbud} alt="" className="mx-auto " />
           <img
             src={tw5ty}
