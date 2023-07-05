@@ -20,7 +20,4 @@ li {
   .main-padding {
     @apply px-3  md:px-[64px];
   }
-  .Header {
-    @apply w-[100%] h-[100%] md:w-[100%] md:h-[100%] bg-Herobg text-white bg-cover main-padding  md:bg-cover   bg-no-repeat overflow-x-hidden;
-  }
 }
