@@ -43,12 +43,15 @@ const Features = () => {
             }
           />
         </div>
-        <div className="w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col relative bg-[#e5e5e5] text-center">
+        <div
+          className="w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col relative bg-[#e5e5e5] text-center"
+          id="Product"
+        >
           <img src={bud2} alt="" className="mx-auto w-[15rem] h-[15rem] " />
           <img
             src={thirty}
             alt=""
-            className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse w-16 h-16"
+            className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse w-16 h-16 "
           />
           <p className=" text-[2rem] font-bold  py-4">NuraTrue</p>
           <p className="  mb-5">
@@ -84,10 +87,7 @@ const Features = () => {
             }
           />
         </div>
-        <div
-          className="w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col relative text-center bg-[#e5e5e5]"
-          id="product "
-        >
+        <div className="w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col relative text-center bg-[#e5e5e5]">
           <img src={flash} alt="" className="mx-auto w-[15rem] h-[15rem] " />
           <img
             src={tw5ty}

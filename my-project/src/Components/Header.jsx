@@ -27,7 +27,7 @@ const Header = () => {
               } `}
             >
               <li className={`${Menu ? "pb-3 cursor-pointer " : ""}`}>
-                <a href="#product">Products</a>
+                <a href="#Product">Products</a>
               </li>
               <li className={`${Menu ? "pb-3 cursor-pointer " : ""}`}>
                 <a href="#Subscription">Subscription</a>
@@ -48,7 +48,7 @@ const Header = () => {
               <img
                 src={menu}
                 alt=""
-                className="text-lg text-[#fff]"
+                className={`text-lg text-[#fff] ${Menu ? "rotate-45" : ""}`}
                 onClick={ShowMenu}
               />
             </span>
