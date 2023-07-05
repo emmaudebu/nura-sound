@@ -18,8 +18,8 @@ const Features = () => {
           View all discounts <i class="bx bx-right-arrow-alt "> </i>
         </p>
       </div>
-      <section className=" flex flex-col md:flex-row items-center gap-5">
-        <div className="featureBox relative z-10 bg-[#e5e5e5] ">
+      <section className=" z-20 flex flex-col md:flex-row items-center gap-5">
+        <div className="featureBox relative bg-[#e5e5e5] text-center ">
           <img
             src={headPhone}
             alt=""
@@ -63,7 +63,7 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox relative bg-[#e5e5e5]">
+        <div className="featureBox relative text-center text-center bg-[#e5e5e5]">
           <img src={earbud} alt="" className="mx-auto  w-[15rem] h-[15rem]" />
           <img
             src={tw5ty}
