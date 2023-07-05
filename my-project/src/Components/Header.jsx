@@ -59,7 +59,7 @@ const Header = () => {
             OUR BIGGEST SALE NOW LIVE
           </p>
           <p className=" text-3xl text-[#fff]  md:text-8xl font-bold capitalize mb-5">
-            black friday start now !
+            black friday start now!
           </p>
           <Button
             text={"SHOP SALES NOW"}
