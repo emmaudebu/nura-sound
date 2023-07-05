@@ -19,7 +19,7 @@ const Features = () => {
         </p>
       </div>
       <section className=" z-20 flex flex-col md:flex-row items-center gap-5">
-        <div className="featureBox relative bg-[#e5e5e5] text-center ">
+        <div className=" relative bg-[#e5e5e5] text-center w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col">
           <img
             src={headPhone}
             alt=""
@@ -43,7 +43,7 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox relative bg-[#e5e5e5] text-center">
+        <div className="w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col relative bg-[#e5e5e5] text-center">
           <img src={bud2} alt="" className="mx-auto w-[15rem] h-[15rem] " />
           <img
             src={thirty}
@@ -63,7 +63,7 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox relative text-center text-center bg-[#e5e5e5]">
+        <div className="w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col relative  text-center bg-[#e5e5e5]">
           <img src={earbud} alt="" className="mx-auto  w-[15rem] h-[15rem]" />
           <img
             src={tw5ty}
@@ -85,7 +85,7 @@ const Features = () => {
           />
         </div>
         <div
-          className="featureBox relative text-center bg-[#e5e5e5]"
+          className="w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col relative text-center bg-[#e5e5e5]"
           id="product "
         >
           <img src={flash} alt="" className="mx-auto w-[15rem] h-[15rem] " />
