@@ -19,7 +19,7 @@ const Features = () => {
         </p>
       </div>
       <section className=" flex flex-col md:flex-row items-center gap-5">
-        <div className="featureBox relative z-10 ">
+        <div className="featureBox relative z-10 bg-[#e5e5e5] ">
           <img
             src={headPhone}
             alt=""
@@ -43,7 +43,7 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox relative  text-center">
+        <div className="featureBox relative bg-[#e5e5e5] text-center">
           <img src={bud2} alt="" className="mx-auto w-[15rem] h-[15rem] " />
           <img
             src={thirty}
@@ -63,7 +63,7 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox relative ">
+        <div className="featureBox relative bg-[#e5e5e5]">
           <img src={earbud} alt="" className="mx-auto  w-[15rem] h-[15rem]" />
           <img
             src={tw5ty}
@@ -84,7 +84,10 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox relative text-center " id="product ">
+        <div
+          className="featureBox relative text-center bg-[#e5e5e5]"
+          id="product "
+        >
           <img src={flash} alt="" className="mx-auto w-[15rem] h-[15rem] " />
           <img
             src={tw5ty}
