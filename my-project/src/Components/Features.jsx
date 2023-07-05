@@ -19,8 +19,12 @@ const Features = () => {
         </p>
       </div>
       <section className=" flex flex-col md:flex-row items-center gap-5">
-        <div className="featureBox relative ">
-          <img src={headPhone} alt="" className="mx-auto " />
+        <div className="featureBox relative z-10 ">
+          <img
+            src={headPhone}
+            alt=""
+            className="mx-auto  w-[15rem] h-[15rem]"
+          />
           <img
             src={tw5ty}
             alt=""
@@ -39,14 +43,14 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox relative ">
-          <img src={bud2} alt="" className="mx-auto " />
+        <div className="featureBox relative  text-center">
+          <img src={bud2} alt="" className="mx-auto w-[15rem] h-[15rem] " />
           <img
             src={thirty}
             alt=""
             className=" absolute top-0 left-0 mt-5 ml-5 animate-pulse w-16 h-16"
           />
-          <p className=" text-[2rem] font-bold py-4">NuraTrue</p>
+          <p className=" text-[2rem] font-bold  py-4">NuraTrue</p>
           <p className="  mb-5">
             <span className=" text-gray-400 line-through">$399</span>{" "}
             <span className=" font-bold text-[1rem] ">$299.25</span>
@@ -60,7 +64,7 @@ const Features = () => {
           />
         </div>
         <div className="featureBox relative ">
-          <img src={earbud} alt="" className="mx-auto " />
+          <img src={earbud} alt="" className="mx-auto  w-[15rem] h-[15rem]" />
           <img
             src={tw5ty}
             alt=""
@@ -81,7 +85,7 @@ const Features = () => {
           />
         </div>
         <div className="featureBox relative text-center " id="product ">
-          <img src={flash} alt="" className="mx-auto " />
+          <img src={flash} alt="" className="mx-auto w-[15rem] h-[15rem] " />
           <img
             src={tw5ty}
             alt=""
