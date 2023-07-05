@@ -16,7 +16,7 @@ const Header = () => {
         className=" w-[100%] h-[100%] md:w-[100%] md:h-[100%] bg-Herobg text-white bg-cover main-padding  md:bg-cover   bg-no-repeat overflow-x-hidden;
  "
       >
-        <header className=" flex items-center justify-between py-5">
+        <header className=" flex items-center justify-between py-[5px]">
           <nav className=" flex items-center gap-5 relative ">
             <img src={logo} />
             <ul
