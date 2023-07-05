@@ -24,6 +24,6 @@ li {
     @apply w-[100%] h-[100%] md:w-[100%] md:h-[100%] bg-Herobg text-white bg-cover main-padding  md:bg-cover   bg-no-repeat overflow-x-hidden;
   }
   .featureBox {
-    @apply w-[80%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col;
+    @apply w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col;
   }
 }
