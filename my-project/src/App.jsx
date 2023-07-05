@@ -11,14 +11,14 @@ import { Footer } from "./Components/Footer";
 function App() {
   return (
     <>
-      <Header classname="px-3  md:px-[64px]" />
-      <Features classname="px-3  md:px-[64px]" />
-      <CalltoAction classname="px-3  md:px-[64px]" />
-      <Devices classname="px-3  md:px-[64px]" />
-      <Subscription classname="px-3  md:px-[64px]" />
-      <Youtube classname="px-3  md:px-[64px]" />
-      <Partners classname="px-3  md:px-[64px]" />
-      <Footer classname="px-3  md:px-[64px]" />
+      <Header />
+      <Features />
+      <CalltoAction />
+      <Devices />
+      <Subscription />
+      <Youtube />
+      <Partners />
+      <Footer />
     </>
   );
 }

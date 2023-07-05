@@ -15,3 +15,9 @@ html {
 li {
   cursor: pointer;
 }
+
+@layer {
+  .main-padding {
+    @apply px-3  md:px-[64px];
+  }
+}
