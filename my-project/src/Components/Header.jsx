@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <>
       <div
-        className=" w-[100%] h-[100%] md:w-[100%] md:h-[100%] bg-Herobg text-white bg-cover main-padding  md:bg-cover   bg-no-repeat overflow-x-hidden;
+        className=" w-[100%] h-[100%] md:w-[100%] md:h-[100%] bg-Herobg text-white bg-cover px-3  md:px-[64px]  md:bg-cover   bg-no-repeat overflow-x-hidden;
  "
       >
         <header className=" flex items-center justify-between py-[5px]">

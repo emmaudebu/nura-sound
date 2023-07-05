@@ -5,7 +5,7 @@ const Devices = () => {
   return (
     <div
       id="Support"
-      className="main-padding h-[80%]   bg-[#171717] relative pt-5 md:pt-10 overflow-x-hidden flex"
+      className="px-3  md:px-[64px] h-[80%]   bg-[#171717] relative pt-5 md:pt-10 overflow-x-hidden flex"
     >
       <img src={cock} alt="" className=" w-[30rem] m-auto" />
       <section className="w-[100%] h-[100%] bg-[#00000041] absolute top-0 left-0  ">

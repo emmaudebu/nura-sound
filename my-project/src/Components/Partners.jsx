@@ -22,7 +22,7 @@ import partner21 from "../assets/images/partners/wsj.png";
 
 const Partners = () => {
   return (
-    <div className=" main-padding h-[100%] w-[100%] bg-[#272727] flex flex-wrap justify-center">
+    <div className=" px-3  md:px-[64px] h-[100%] w-[100%] bg-[#272727] flex flex-wrap justify-center">
       <img
         src={partner1}
         alt=""

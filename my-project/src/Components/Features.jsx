@@ -9,7 +9,7 @@ import Button from "./Button";
 
 const Features = () => {
   return (
-    <div className=" main-padding  bg-[#171717] pt-[3rem] pb-[10rem] ">
+    <div className=" px-3  md:px-[64px]  bg-[#171717] pt-[3rem] pb-[10rem] ">
       <div className="flex justify-between items-center py-10">
         <p className=" text-white text-lg  md:text-[3rem]">
           Featured discounts

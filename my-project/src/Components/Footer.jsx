@@ -3,7 +3,7 @@ import logo from "../assets/images/svg.png";
 
 export const Footer = () => {
   return (
-    <div div className=" bg-black main-padding">
+    <div div className=" bg-black px-3  md:px-[64px]">
       <div className="  bg-black text-white pt-[5.6rem]  hidden  md:flex :flex-row gap-11 md:gap-[9rem] pb-10">
         <div className=" w-[21rem] pr-[2.5rem]">
           <img src={logo} alt="" className="pb-5" />
