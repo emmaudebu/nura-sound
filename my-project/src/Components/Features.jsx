@@ -80,7 +80,7 @@ const Features = () => {
             }
           />
         </div>
-        <div className="featureBox relative " id="product ">
+        <div className="featureBox relative text-center " id="product ">
           <img src={flash} alt="" className="mx-auto " />
           <img
             src={tw5ty}
