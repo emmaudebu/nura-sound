@@ -19,7 +19,7 @@ const Features = () => {
         </p>
       </div>
       <section className=" z-20 flex flex-col md:flex-row items-center gap-5">
-        <div className=" relative bg-[#e5e5e5] text-center w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl   md:flex-col">
+        <div className=" relative bg-[#e5e5e5] text-center w-[90%] md:w-[20rem] h-[30rem] md:h-full   pb-8 rounded-xl flex-wrap   md:flex-col">
           <img
             src={headPhone}
             alt=""
